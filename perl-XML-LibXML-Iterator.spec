@@ -11,7 +11,7 @@ Name:		perl-XML-LibXML-Iterator
 Version:	1.00
 Release:	1
 # same as perl
-License:	GPL or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	5139c75dc8cde4db19059fb62f44ac5b
@@ -41,7 +41,6 @@ przemieszczanie po DOM tak, jak po zwyk³ej tablicy.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
 
 %{?with_tests:%{__make} test}
