@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	LibXML-Iterator
 Summary:	XML::LibXML::Iterator - XML::LibXML's Tree Iteration Class
-Summary(pl):	XML::LibXML::Iterator - klasa iteratora dla drzew XML::LibXML
+Summary(pl.UTF-8):   XML::LibXML::Iterator - klasa iteratora dla drzew XML::LibXML
 Name:		perl-XML-LibXML-Iterator
 Version:	1.00
 Release:	1
@@ -30,10 +30,10 @@ XML::LibXML::Iterator implements the iterator part of the DOM
 Traversal and Range specification. This class allows to iterate
 through a DOM as it is done through an ordinary array.
 
-%description -l pl
-XML::LibXML::Iterator implementuje czê¶æ dotycz±c± iteratora ze
+%description -l pl.UTF-8
+XML::LibXML::Iterator implementuje czÄ™Å›Ä‡ dotyczÄ…cÄ… iteratora ze
 specyfikacji "DOM Traversal and Range". Klasa ta pozwala na
-przemieszczanie po DOM tak, jak po zwyk³ej tablicy.
+przemieszczanie po DOM tak, jak po zwykÅ‚ej tablicy.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
