@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	LibXML-Iterator
 Summary:	XML::LibXML::Iterator - XML::LibXML's Tree Iteration Class
-Summary(pl.UTF-8):   XML::LibXML::Iterator - klasa iteratora dla drzew XML::LibXML
+Summary(pl.UTF-8):	XML::LibXML::Iterator - klasa iteratora dla drzew XML::LibXML
 Name:		perl-XML-LibXML-Iterator
 Version:	1.00
 Release:	1
