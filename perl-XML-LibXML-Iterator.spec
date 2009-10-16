@@ -8,13 +8,13 @@
 Summary:	XML::LibXML::Iterator - XML::LibXML's Tree Iteration Class
 Summary(pl.UTF-8):	XML::LibXML::Iterator - klasa iteratora dla drzew XML::LibXML
 Name:		perl-XML-LibXML-Iterator
-Version:	1.00
-Release:	2
+Version:	1.04
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	5139c75dc8cde4db19059fb62f44ac5b
+# Source0-md5:	bcbf474656bd4e1a1939c2459ca91ac1
 %if %{with tests}
 BuildRequires:	perl-XML-LibXML >= 1.52
 BuildRequires:	perl-XML-NodeFilter
